@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-bar {
+  display: flex;
+  gap: 32rem;
+  flex-direction: row;
+  padding: 1.5rem;
+  width: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.bg-img {
+  background-image: url("./images/desktop/image-header.jpg");
+  min-height: 755px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.create-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 6rem;
+  gap: 2.2rem;
+}
+
+h1 {
+  color: white;
+  font-size: 3.5em;
+  font-weight: bolder;
+  font-family: "Vollkorn", serif;
+}
+
+h2 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: bolder;
+  font-family: "Vollkorn", serif;
+}
+
+h3 {
+  color: white;
+  font-family: "Vollkorn", serif;
+}
+
+.contact-btn {
+  background-color: white;
+  border-radius: 1.5rem;
+  margin: 0.5rem;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: repeat(2, 1fr);
+  gap: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.onestyle {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 1rem;
+
+  margin: 2rem 6rem;
+  padding: 7rem 4rem;
+}
+
+.onestyle h4 {
+  font-size: 1.5em;
+  font-weight: bolder;
+  font-family: "Vollkorn", serif;
+}
