@@ -44,21 +44,21 @@
   gap: 2.2rem;
 }
 
-h1 {
+.container h1 {
   color: white;
   font-size: 3.5em;
   font-weight: bolder;
   font-family: "Vollkorn", serif;
 }
 
-h2 {
+.container h2 {
   color: white;
   font-size: 2.5em;
   font-weight: bolder;
   font-family: "Vollkorn", serif;
 }
 
-h3 {
+.container h3 {
   color: white;
   font-family: "Vollkorn", serif;
 }
@@ -92,13 +92,203 @@ img {
   flex-direction: column;
   align-content: center;
   gap: 1rem;
-
-  margin: 2rem 6rem;
-  padding: 7rem 4rem;
+  margin: 3rem 3rem;
+  padding: 5rem 2rem;
 }
 
 .onestyle h4 {
+  font-size: 2em;
+  font-family: "Russo One", serif;
+}
+
+.onestyle p {
+  font-size: 1.2em;
+  color: rgb(95, 95, 95);
+  font-family: "Russo One", serif;
+}
+
+.onestyle a {
+  font-size: 1.2em;
+  color: black;
+  text-decoration: none;
+  font-weight: 1000;
+  font-family: "Russo One", serif;
+  position: relative;
+}
+
+.yellow-bar {
+  position: absolute;
+  margin: 9.7rem 0rem;
+  padding: 02px 4.1rem;
+  background-color: rgba(253, 252, 188, 0.863);
+}
+
+.onestyle .yellow-bar:hover {
+  background-color: rgba(240, 243, 55, 0.918);
+}
+
+.pink-bar {
+  position: absolute;
+  margin: 9.7rem 0rem;
+  padding: 02px 4.1rem;
+  background-color: rgba(247, 188, 222, 0.863);
+}
+
+.onestyle .pink-bar:hover {
+  background-color: rgba(245, 65, 119, 0.918);
+}
+
+.cherry {
+  position: relative;
+  text-align: center;
+}
+.cherry-orange {
+  font-family: "Russo One", serif;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cherry-orange h4 {
+  margin: 200px 0px 21px;
   font-size: 1.5em;
+  color: #25564b;
   font-weight: bolder;
-  font-family: "Vollkorn", serif;
+}
+
+.cherry-orange p {
+  margin: 15px 30px;
+  gap: 1rem;
+  font-size: 1.3em;
+  color: #25564b;
+}
+
+.orange {
+  position: relative;
+  text-align: center;
+}
+.orange-cherry {
+  font-family: "Russo One", serif;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.orange-cherry h4 {
+  margin: 200px 0px 21px;
+  font-size: 1.5em;
+  color: #19536b;
+  font-weight: bolder;
+}
+
+.orange-cherry p {
+  margin: 15px 30px;
+  gap: 1rem;
+  font-size: 1.3em;
+  color: #19536b;
+}
+
+.Testimonals {
+  display: flex;
+  font-family: 20px "Fraunces", serif;
+  margin-top: 8%;
+  margin-bottom: 1%;
+  font-weight: bolder;
+  color: #818498;
+  justify-content: center;
+}
+
+.people {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  margin: 10% 10%;
+  gap: 5rem;
+}
+
+.people img {
+  height: 70px;
+  width: 70px;
+  margin-top: 2%;
+  margin-left: 37%;
+  margin-bottom: 30%;
+  border-radius: 50%;
+}
+
+.people p {
+  display: block;
+  justify-content: center;
+  font-weight: 350;
+
+  font-size: 1em;
+  font-family: "Fraunces", serif;
+}
+
+.people h2 {
+  font-size: 1.2em;
+  margin-top: 30%;
+  align-items: center;
+  text-align: center;
+}
+
+.people h3 {
+  font-size: 0.9em;
+  font-weight: 900;
+  margin-top: 10%;
+  color: #818498;
+  align-items: center;
+  text-align: center;
+}
+
+.photos {
+  display: grid;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.photos img {
+  max-width: 100%;
+}
+.green {
+  background-color: #6bd4bf;
+}
+
+.green h2 {
+  justify-content: center;
+  display: flex;
+  font-family: 20px "Fraunces", serif;
+  font-weight: bolder;
+  color: #25564b;
+  font-size: 2.1em;
+  justify-content: center;
+}
+
+.bar {
+  margin-top: 4%;
+  display: flex;
+  gap: 5rem;
+  flex-direction: row;
+  padding: 1.5rem;
+  color: #25564b;
+  justify-content: center;
+}
+
+.contact {
+  margin-top: 2%;
+  display: flex;
+  gap: 3rem;
+  flex-direction: row;
+  padding: 1.5rem;
+  justify-content: center;
+}
+
+.bar h3:hover {
+  color: white;
 }
