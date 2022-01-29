@@ -6,7 +6,6 @@
 
 .menu-bar {
   display: flex;
-  gap: 32rem;
   flex-direction: row;
   padding: 1.5rem;
   width: 100%;
@@ -28,12 +27,6 @@
   position: relative;
 }
 
-.container {
-  position: absolute;
-  margin: 20px;
-  width: auto;
-}
-
 .create-arrow {
   display: flex;
   justify-content: center;
@@ -44,21 +37,21 @@
   gap: 2.2rem;
 }
 
-.container h1 {
+h1 {
   color: white;
   font-size: 3.5em;
   font-weight: bolder;
   font-family: "Vollkorn", serif;
 }
 
-.container h2 {
+h2 {
   color: white;
   font-size: 2.5em;
   font-weight: bolder;
   font-family: "Vollkorn", serif;
 }
 
-.container h3 {
+h3 {
   color: white;
   font-family: "Vollkorn", serif;
 }
@@ -91,12 +84,10 @@ img {
   display: flex;
   flex-direction: column;
   align-content: center;
-  gap: 1rem;
-  margin: 3rem 3rem;
-  padding: 5rem 2rem;
 }
 
 .onestyle h4 {
+  top: 10%;
   font-size: 2em;
   font-family: "Russo One", serif;
 }
@@ -158,7 +149,7 @@ img {
 }
 
 .cherry-orange p {
-  margin: 15px 30px;
+  margin: 15px;
   gap: 1rem;
   font-size: 1.3em;
   color: #25564b;
@@ -291,4 +282,7 @@ img {
 
 .bar h3:hover {
   color: white;
+}
+
+@media only screen and (max-width: 1130px) {
 }
